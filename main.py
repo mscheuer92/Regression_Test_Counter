@@ -3,19 +3,18 @@ from api_tests import ApiCount
 
 
 def output():
-    print("*** MICROSERVICE TESTS *** \n")
     a = ApiCount()
+    b = UiTests()
+
     a.address_occurrences()
+    b.apigee_occurrences()
     a.auth_occurrences()
+    b.dsp_occurrences()
     a.exchange_occurrences()
     a.ggg_occurrences()
     a.notification_occurrences()
     a.transport_occurrences()
-
-    print("*** UI TESTS *** \n")
-    b = UiTests()
-    b.dsp_occurrences()
-    b.apigee_occurrences()
     b.service_occurrences()
+
 
 output()
