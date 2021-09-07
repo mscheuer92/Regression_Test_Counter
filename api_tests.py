@@ -2,12 +2,11 @@ import os
 
 
 class ApiCount:
-    address_path = "<path>"
-    auth_path = "<path>"
-    exchange_path = "<path>"
-    ggg_path = "<path>"
-    notification_path = "<path>"
-    transporterator_path = "<path>"
+    address_path = "/Users/w504327/tests/goTests/src/github.com/wexinc/ps-cbs-address-service/test/features"
+    auth_path = "/Users/w504327/tests/goTests/src/github.com/wexinc/ps-cbs-auth-service/test/features"
+    exchange_path = "/Users/w504327/tests/goTests/src/github.com/wexinc/ps-cbs-exchange-rate-service/test/features"
+    ggg_path = "/Users/w504327/tests/goTests/src/github.com/wexinc/ps-cbs-gogogithub-service/tests/features"
+    notification_path = "/Users/w504327/tests/goTests/src/github.com/wexinc/ps-cbs-notification-service/test/features"
 
     def address_occurrences(self):
         os.chdir(self.address_path)

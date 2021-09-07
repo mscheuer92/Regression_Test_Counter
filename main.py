@@ -13,7 +13,6 @@ def output():
     a.exchange_occurrences()
     a.ggg_occurrences()
     a.notification_occurrences()
-    a.transport_occurrences()
     b.service_occurrences()
 
 

@@ -2,9 +2,9 @@ import os
 
 
 class UiTests:
-    dsp_path = "<path>"
-    apigee_path = "<path>"
-    service_path = "<path>"
+    dsp_path = "/Users/w504327/tests/pythonTests/ps-cbs-developer-service-portal/tests/features"
+    apigee_path = "/Users/w504327/tests/pythonTests/ps-cbs-apigee-manager/tests/features"
+    service_path = "/Users/w504327/tests/pythonTests/ps-sre-service-status/tests/features"
 
     def dsp_occurrences(self):
         os.chdir(self.dsp_path)
