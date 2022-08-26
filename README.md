@@ -1,6 +1,6 @@
-#Regression Test Counter
+#R egression Test Counter
 
-###Function:
+### Function:
 To count existing regression tests for as many services as needed so that accurate test coverage can be reported on a monthly basis.
 
 ### What makes a test case?
@@ -79,7 +79,7 @@ key:value pair to both dictionaries.
 * The `count_occurrences()` function will get the length of your `self.path_dict` and will count the number of scenarios and scenario examples for
 each of the directories listed in that dictionary.
 
-###Run
+### To Run
 In the terminal run: `python3 main.py`. You out output should look similar to this:
 ```Address Service Scenario: 0
  Scenario Outline: 29
