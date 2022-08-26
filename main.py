@@ -1,19 +1,8 @@
-from ui_tests import UiTests
-from api_tests import ApiCount
+from github import GithubPull
+from test_counter import TestCounter
 
+counter = TestCounter()
+gitpull = GithubPull()
 
-def output():
-    a = ApiCount()
-    b = UiTests()
-
-    a.address_occurrences()
-    b.apigee_occurrences()
-    a.auth_occurrences()
-    b.dsp_occurrences()
-    a.exchange_occurrences()
-    a.ggg_occurrences()
-    a.notification_occurrences()
-    b.service_occurrences()
-
-
-output()
+gitpull.pull_changes()
+counter.count_occurrences()
