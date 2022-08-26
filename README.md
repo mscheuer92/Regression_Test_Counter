@@ -1,4 +1,4 @@
-#R egression Test Counter
+# Regression Test Counter
 
 ### Function:
 To count existing regression tests for as many services as needed so that accurate test coverage can be reported on a monthly basis.
