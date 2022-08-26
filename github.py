@@ -11,7 +11,7 @@ class GithubPull:
         }
 
     def pull_changes(self):
-        length = len(self.root_dict)
+        length = len(self.root_dict) + 1
         for i in range(1, length):
             os.chdir(self.root_dict.get(i))
             os.popen('git pull')
