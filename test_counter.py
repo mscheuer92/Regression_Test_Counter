@@ -31,7 +31,7 @@ class TestCounter:
         }
 
     def count_occurrences(self):
-        length = len(self.path_dict)
+        length = len(self.path_dict) + 1
         for i in range(1,length):
             os.chdir(self.path_dict.get(i))
             result = os.popen('cat *.feature | grep -c Scenario:')
